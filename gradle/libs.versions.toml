@@ -9,6 +9,8 @@ appcompat = "1.6.1"
 material = "1.11.0"
 activity = "1.8.0"
 constraintlayout = "2.1.4"
+ksp = "1.9.0-1.0.13"
+navigation = "2.7.7"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -23,4 +25,6 @@ androidx-constraintlayout = { group = "androidx.constraintlayout", name = "const
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp"}
+navigation = {     id = "androidx.navigation.safeargs.kotlin", version.ref = "navigation" }
 
