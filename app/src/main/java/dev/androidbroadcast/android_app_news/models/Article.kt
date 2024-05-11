@@ -1,4 +1,4 @@
-package dev.androidbroadcast.android_app_news
+package dev.androidbroadcast.android_app_news.models
 
 data class Article(
     val author: String,
